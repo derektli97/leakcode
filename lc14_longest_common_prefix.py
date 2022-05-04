@@ -1,9 +1,8 @@
-strs = ['flower', 'flow', 'flight']
-# strs = ['dog', 'racecar', 'car']
-
 # -----------------------------------------------------------------------------
 #  Attempt: #1                start of solution
 # -----------------------------------------------------------------------------
+strs = ['flower', 'flow', 'flight']
+# strs = ['dog', 'racecar', 'car']
 
 strs.sort(key = lambda i : len(i))
 
